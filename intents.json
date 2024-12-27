@@ -1,0 +1,56 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "Please assist me", "I need assistance", "Can you guide me?", "Help me out" ],
+      "responses": ["Sure, how can I assist you?", "Of course! What do you need help with?", "I’m here to help. What’s the issue?", "Tell me what you need, and I’ll do my best!", "Absolutely! Let me know how I can help.", "Yes, I’d be happy to assist!"]
+    },
+    {
+      "tag": "information",
+      "patterns": [
+        "Tell me something",
+        "I need information",
+        "Can you give me some details?",
+        "What do you know about this?",
+        "I have a question",
+        "Can you inform me?"
+      ],
+      "responses": [
+        "Sure, let me provide you with some details.",
+        "What specific information do you need?",
+        "I can help with that! Please elaborate.",
+        "Let me look into that for you.",
+        "Here’s what I know: [provide details].",
+        "Of course, what would you like to know?"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Can you be funny?",
+        "I want to hear something funny",
+        "Got any jokes?"
+      ],
+      "responses": [
+        "Why don’t skeletons fight each other? They don’t have the guts!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Why don’t oysters donate to charity? Because they are shellfish!",
+        "Why did the bicycle fall over? It was two-tired!",
+        "What do you call cheese that isn’t yours? Nacho cheese!"
+      ]
+    }
+]
+}
